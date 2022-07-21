@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 export const GitHubShareButton: React.FC = () => {
   return (
     <a
-      href='https://github.com/wkywky123123/wkydbk/'
+      href='https://github.com/eyhhhdznk/kydznk'
       target='_blank'
       rel='noopener noreferrer'
       className={styles.githubCorner}
