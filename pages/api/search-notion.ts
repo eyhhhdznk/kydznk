@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 
 import * as types from '../../lib/types'
-import { search } from '../../lib/notion'
+import { 搜索 } from '../../lib/notion'
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method !== 'POST') {
@@ -12,7 +12,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
   console.log('<<< lambda search-notion', searchParams)
   const results = await search(searchParams)
-  console.log('>>> lambda search-notion', results)
+  console.log('>>> lambda search-notion', 个结果)
 
   res.setHeader(
     'Cache-Control',
