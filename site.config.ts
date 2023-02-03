@@ -24,7 +24,7 @@ export default siteConfig({
 
 
   // default notion icon and cover images for site-wide consistency (optional)
-  page-specific values will override these site-wide defaults
+  //page-specific values will override these site-wide defaults
   defaultPageIcon: null,
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
@@ -48,7 +48,7 @@ export default siteConfig({
   pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
-  //important pages
+  important pages
   navigationStyle: 'default'
   navigationStyle: 'custom'
   navigationLinks: [
