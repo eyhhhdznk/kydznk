@@ -47,8 +47,8 @@ export default siteConfig({
   // }
   pageUrlOverrides: null,
 
-  whether to use the default notion navigation style or a custom one with links to
-  important pages
+ // whether to use the default notion navigation style or a custom one with links to
+  //important pages
   navigationStyle: 'default'
  // navigationStyle: 'custom'
   navigationLinks: [
