@@ -50,16 +50,16 @@ export default siteConfig({
   // whether to use the default notion navigation style or a custom one with links to
   //important pages
   //navigationStyle: 'default'
-  navigationStyle: 'custom'
-  navigationLinks: [
-     {
-       title: '关于我',
-       pageId: '#0702d3691eb54cee95f3211b75943aa0'
-     },
-     {
-       title: '联系我',
-       pageId: '#997033d5b37d48d887bc197e23d2d00d'
-     }
+ // navigationStyle: 'custom'
+  //navigationLinks: [
+  //   {
+ //      title: '关于我',
+  //     pageId: '#0702d3691eb54cee95f3211b75943aa0'
+  //   },
+ //    {
+ //      title: '联系我',
+//       pageId: '#997033d5b37d48d887bc197e23d2d00d'
+//     }
 //{/*（别忘了上一行加逗号）*/
 //       title: '帮助',
 //       pageId: 'f1199d37579b41cbabfc0b5174f4256a'
